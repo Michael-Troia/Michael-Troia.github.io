@@ -1,0 +1,28 @@
+/* CSS HEX */
+* {
+    --paradise-pink: #ef476fff;
+    --orange-yellow-crayola: #ffd166ff;
+    --caribbean-green: #06d6a0ff;
+    --blue-ncs: #118ab2ff;
+    --midnight-green-eagle-green: #073b4cff;
+    --Blackish: #202020;
+    --Dark-Grey: #3F3F3F;
+    --Medium-Grey: #707070;
+    --Egg-Yellow: #FFD6C;
+    --White: #FFFFFF;
+}
+
+body {
+    max-width: 1776px;
+    margin: 0 auto;
+    /*background-color: #454545;*/
+    background-color: var(--Blackish);
+}
+
+img {
+    width: 100%;
+}
+
+#face {
+    padding: 10%;
+}
