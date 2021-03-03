@@ -10,19 +10,47 @@
     --Medium-Grey: #707070;
     --Egg-Yellow: #FFD6C;
     --White: #FFFFFF;
+    font-size: 1.1rem;
 }
 
 body {
     max-width: 1776px;
     margin: 0 auto;
     /*background-color: #454545;*/
-    background-color: var(--Blackish);
 }
 
 img {
     width: 100%;
 }
-
-#face {
-    padding: 10%;
+i {
+    font-size: xx-large;
+    color: white;
+    opacity: 80%;
 }
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+#face {
+    height: auto;
+    width: 70%;
+    margin: 100px 50px;
+}
+.card {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
+}
+.projects {
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    overflow: hidden;
+}
+.project-body {
+}
+.frame {
+    height: 300px;
+    overflow: hidden;
+}
+
+
