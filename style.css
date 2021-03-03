@@ -32,6 +32,11 @@ i {
     bottom: 8px;
     left: 16px;
 }
+.top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
 #face {
     height: auto;
     width: 70%;
@@ -46,8 +51,7 @@ i {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     overflow: hidden;
 }
-.project-body {
-}
+
 .frame {
     height: 300px;
     overflow: hidden;

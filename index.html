@@ -10,8 +10,29 @@
 <body>
 <nav class="navbar navbar-light bg-light px-5">
     <a class="navbar-brand" href="#">Portfolio</a>
+    <p class="nav-item nav-link" data-toggle="modal" data-target="#exampleModalCenter">Contact</p>
 </nav>
-<div style="position: relative">
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle"></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSclCFuk-po7W-Nzgpp33sfDUUCXPi6CCYLUt5UcpeOAL1spgg/viewform?embedded=true" width="100%" height="853">Loading…</iframe>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Banner" style="position: relative">
     <div class="bottom-left">
         <i class="fas fa-mobile-alt"> (407) 301-4577</i><br>
         <i class="far fa-envelope"> troia.michael.a@gmail.com</i><br>
@@ -20,110 +41,116 @@
     <img src="img/banner%20(2).png" alt="">
 </div>
 
-<header>
-    <div class="container-fluid">
-        <hr>
-        <div class="card">
-            <div class="row no-gutters">
-                <div class="col-sm-4">
-                    <img class="card-img" src="img/face.jpg" id="face" alt="Michael Troia">
-                </div>
-                <div class="col-sm-7">
-                    <div class="card-body">
-                        <br><br>
-                        <h3 class="card-title">Web/Software Developer</h3>
-                        <br>
-                        <p class="card-text">My name is Michael Troia, and I like to build things online!
-                            I live in the Sunshine State of Florida and am a proud U.S. Army veteran of 6 years, a father, a husband, and a dream chaser.</p>
-                        <hr>
-                        <div class="row">
-                            <div class="col-4">
-                                <h5>Technical Skills</h5>
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>Java</li>
-                                    <li>MySQL</li>
-                                    <li>Spring Boot</li>
-                                    <li>Thymeleaf</li>
-                                    <li>Bootstrap</li>
-                                    <li>JQuery</li>
-                                </ul>
-                            </div>
-                            <div class="col-8">
-                                <h5>Education</h5>
-                                <ul>
-                                    <li>
-                                        <strong>Codeup</strong>
-                                        <p>Web Development Career Accelerator (2021)<br>
-                                            Certificate of Completion <br>
-                                            A fully-immersive, project-based, and intensive 22-week fullstack
-                                            Java career accelerator that provides students with 670+
-                                            hours of expert instruction in software development.</p>
-                                    </li>
-                                    <li>
-                                        <strong>University of the Incarnate Word</strong>
-                                        <p>BS in Business Administration <br>
-                                            Concentration: Information Systems <br>
-                                            Anticipated graduation August 2021(3.7 GPA)</p>
-                                    </li>
-                                </ul>
+<div id="Portfolio">
+    <header>
+        <div class="container-fluid">
+            <hr>
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-sm-4">
+                        <img class="card-img" src="img/face.jpg" id="face" alt="Michael Troia">
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="card-body">
+                            <br><br>
+                            <h3 class="card-title">Web/Software Developer</h3>
+                            <br>
+                            <p class="card-text">My name is Michael Troia, and I like to build things online!
+                                I live in the Sunshine State of Florida and am a proud U.S. Army veteran of 6 years, a father, a husband, and a dream chaser.</p>
+                            <hr>
+                            <div class="row">
+                                <div class="col-4">
+                                    <h5>Technical Skills</h5>
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>Java</li>
+                                        <li>MySQL</li>
+                                        <li>Spring Boot</li>
+                                        <li>Thymeleaf</li>
+                                        <li>Bootstrap</li>
+                                        <li>JQuery</li>
+                                    </ul>
+                                    <a href="img/Resume-Michael_Troia.pdf" download="MichaelTroia_Resume" class="btn btn-primary">Download Resume</a>
+                                </div>
+                                <div class="col-8">
+                                    <h5>Education</h5>
+                                    <ul>
+                                        <li>
+                                            <strong>Codeup</strong>
+                                            <p>Web Development Career Accelerator (2021)<br>
+                                                Certificate of Completion <br>
+                                                A fully-immersive, project-based, and intensive 22-week fullstack
+                                                Java career accelerator that provides students with 670+
+                                                hours of expert instruction in software development.</p>
+                                        </li>
+                                        <li>
+                                            <strong>University of the Incarnate Word</strong>
+                                            <p>BS in Business Administration <br>
+                                                Concentration: Information Systems <br>
+                                                Anticipated graduation August 2021(3.7 GPA)</p>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<main>
-    <div class="container-fluid">
-        <h1 class="my-5">Web Development Projects</h1>
-        <div class="row">
-            <div class="col projects mx-3">
-                <div class="frame">
-                    <img src="img/justfriends.png.png" alt="JustFriends.online">
+    <main>
+        <div class="container-fluid">
+            <h1 class="my-5">Web Development Projects</h1>
+            <div class="row">
+                <div class="col projects mx-3">
+                    <div class="frame">
+                        <img src="img/justfriends.png.png" alt="JustFriends.online">
+                    </div>
+                    <div class="project-body">
+                        <h5>JustFriends.online</h5>
+                        <p>A social media site focused on the essentials of a social media website: friends, posting, commenting, posting photos, and creating photo galleries.
+                            Technologies: HTML, CSS, Java, JavaScript, Spring Boot
+                            Thymeleaf, Bootstrap, MySQL</p>
+                        <a href="https://justfriends.online" class="btn btn-outline-dark">Live Site</a>
+                        <a href="https://www.notion.so/JustFriends-fa31da6ac57b452f9d48bbf10cbc9abe" class="btn btn-outline-dark" style="float: right">Dev Blog</a>
+                    </div>
                 </div>
-                <div class="project-body">
-                    <h5>JustFriends.online</h5>
-                    <p>A social media site focused on the essentials of a social media website: friends, posting, commenting, posting photos, and creating photo galleries.
-                        Technologies: HTML, CSS, Java, JavaScript, Spring Boot
-                        Thymeleaf, Bootstrap, MySQL</p>
-                    <a href="https://justfriends.online" class="btn btn-outline-dark">Live Site</a>
-                    <a href="https://www.notion.so/JustFriends-fa31da6ac57b452f9d48bbf10cbc9abe" class="btn btn-outline-dark" style="float: right">Dev Blog</a>
+                <div class="col projects mx-3">
+                    <div class="frame">
+                        <img src="img/WeatherMap.png" alt="weather project">
+                    </div>
+                    <div class="project-body">
+                        <h5>5-Day Weather Forecast App</h5>
+                        <p>A weather app that displays a weekly weather forecast in the
+                            location of the user’s choosing
+                            implementing Openweather API.
+                            Technologies: HTML, CSS, Javascript, Ajax request</p>
+                        <a href="https://github.com/Michael-Troia/Codeup-Web-Exercises/blob/master/weather_map.html" class="btn btn-outline-dark">Github</a>
+                    </div>
                 </div>
-            </div>
-            <div class="col projects mx-3">
-                <div class="frame">
-                    <img src="img/WeatherMap.png" alt="weather project">
-                </div>
-                <div class="project-body">
-                    <h5>5-Day Weather Forecast App</h5>
-                    <p>A weather app that displays a weekly weather forecast in the
-                        location of the user’s choosing
-                        implementing Openweather API.
-                        Technologies: HTML, CSS, Javascript, Ajax request</p>
-                    <a href="https://github.com/Michael-Troia/Codeup-Web-Exercises/blob/master/weather_map.html" class="btn btn-outline-dark">Github</a>
-                </div>
-            </div>
-            <div class="col projects mx-3">
-                <div class="frame">
-                    <img src="img/coffee.png" alt="Coffee project">
-                </div>
-                <div class="project-body">
-                    <h5>Coffee Menu App</h5>
-                    <p>Group project: Coffee menu that filters and sort by different parameters in
-                        JavaScript and also allows visitors to create and name
-                        their own coffee products that are stored locally.
-                        Technologies: HTML, CSS, Javascript</p>
-                    <a href="https://github.com/rem-coffee-project/coffee-project" class="btn btn-outline-dark">Github</a>
+                <div class="col projects mx-3">
+                    <div class="frame">
+                        <img src="img/coffee.png" alt="Coffee project">
+                    </div>
+                    <div class="project-body">
+                        <h5>Coffee Menu App</h5>
+                        <p>Group project: Coffee menu that filters and sort by different parameters in
+                            JavaScript and also allows visitors to create and name
+                            their own coffee products that are stored locally.
+                            Technologies: HTML, CSS, Javascript</p>
+                        <a href="https://github.com/rem-coffee-project/coffee-project" class="btn btn-outline-dark">Github</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</main>
+    </main>
+</div>
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
 </html>
