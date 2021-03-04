@@ -26,6 +26,14 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" onclick="showMore();">More</a>
+                <script>
+                    function showMore() {
+                        $('#Blog').fadeOut(500);
+                        $('#Portfolio').fadeOut(500);
+                        $('#Banner').fadeOut(500);
+                        $('#More').fadeIn(500);
+                    }
+                </script>
             </li>
         </ul>
     </div>

@@ -13,10 +13,10 @@ function showPortfolio() {
 
 }
 
-function showMore() {
-    $('#Blog').fadeOut(500);
-    $('#Portfolio').fadeOut(500);
-    $('#Banner').fadeOut(500);
-    $('#More').fadeIn(500);
-}
+// function showMore() {
+//     $('#Blog').fadeOut(500);
+//     $('#Portfolio').fadeOut(500);
+//     $('#Banner').fadeOut(500);
+//     $('#More').fadeIn(500);
+// }
 
