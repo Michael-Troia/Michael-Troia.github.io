@@ -1,11 +1,22 @@
 function showBlog() {
-    document.getElementById('Blog').style.display = "block";
-    document.getElementById('Portfolio').style.display = "none";
-    document.getElementById('Banner').style.display = "none";
+    $('#Blog').fadeIn(500);
+    $('#Portfolio').fadeOut(500);
+    $('#Banner').fadeOut(500);
+    $('#More').fadeOut(500);
 }
 
 function showPortfolio() {
-    document.getElementById('Blog').style.display = "none";
-    document.getElementById('Portfolio').style.display = "block";
-    document.getElementById('Banner').style.display = "block";
+    $('#Blog').fadeOut(500);
+    $('#Portfolio').fadeIn(500);
+    $('#Banner').fadeIn(500);
+    $('#More').fadeOut(500);
+
 }
+
+function showMore() {
+    $('#Blog').fadeOut(500);
+    $('#Portfolio').fadeOut(500);
+    $('#Banner').fadeOut(500);
+    $('#More').fadeIn(500);
+}
+

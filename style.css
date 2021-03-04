@@ -18,14 +18,8 @@ body {
     margin: 0 auto;
     /*background-color: #454545;*/
 }
-
 img {
     width: 100%;
-}
-i {
-    font-size: xx-large;
-    color: white;
-    opacity: 80%;
 }
 .bottom-left {
     position: absolute;
@@ -36,11 +30,6 @@ i {
     position: absolute;
     top: 20px;
     right: 20px;
-}
-#face {
-    height: auto;
-    width: 70%;
-    margin: 100px 50px;
 }
 .card {
     /*box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;*/
@@ -54,10 +43,18 @@ i {
     margin: 20px;
     padding: 20px;
 }
-
 .frame {
     height: 300px;
     overflow: hidden;
 }
-
+#face {
+    height: auto;
+    width: 70%;
+    margin: 100px 50px;
+}
+#Banner i {
+    font-size: xx-large;
+    color: white;
+    opacity: 80%;
+}
 
