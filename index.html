@@ -11,12 +11,13 @@
     <script src="script.js"></script>
 </head>
 <body>
+<div id="Content">
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light px-3">
     <a class="navbar-brand" href="#" onclick="showPortfolio();">Michael Troia</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="float: left">
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">Contact</a>
@@ -62,7 +63,8 @@
     <div class="bottom-left">
         <i class="fas fa-mobile-alt"> (407) 301-4577</i><br>
         <i class="far fa-envelope"> troia.michael.a@gmail.com</i><br>
-        <i class="fab fa-linkedin"><a href="https://www.linkedin.com/in/michael-a-troia/" style="text-decoration: none; color: white; font-size: xx-large"> michael-a-troia</a></i>
+        <i class="fab fa-linkedin"><a href="https://www.linkedin.com/in/michael-a-troia/" style="text-decoration: none; color: white; font-size: xx-large"> michael-a-troia</a></i><br>
+        <i class="fab fa-github-square"><a href="https://github.com/Michael-Troia" style="text-decoration: none; color: white; font-size: xx-large"> GitHub</a></i>
     </div>
     <img src="img/banner%20(2).png" alt="">
 </div>
@@ -182,6 +184,16 @@
 <!--        new posts-->
         <div class="col-6">
             <div class="card">
+                <div class="card-header">March 8th, 2021</div>
+                <div class="card-body">
+                    <h5 class="card-title">Footer</h5>
+                    <p class="card-text">Somehow I didn't realize my portfolio was lacking a footer! So now that the footer is included, I'm proud to announce that
+                    you can now access the same links and content available just like before, but now <em>also</em> at the <em>bottom</em> of the page. <i class="far fa-check-square"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card">
                 <div class="card-header">March 4th, 2021</div>
                 <div class="card-body">
                     <h5 class="card-title">Voila</h5>
@@ -257,6 +269,44 @@
         </div>
     </div>
 </div>
+</div>
+
+<footer>
+    <table>
+        <tr>
+            <th>Contact</th>
+            <th>Links</th>
+        </tr>
+        <tr>
+            <td><a data-toggle="modal" data-target="#exampleModalCenter">Contact me</a></td>
+            <td><a href="img/Resume.pdf" download="MichaelTroia_Resume" style="text-decoration: none; color: white;">Resume</a></td>
+        </tr>
+        <tr>
+            <td>
+                <i class="far fa-envelope"> troia.michael.a@gmail.com</i><br>
+            </td>
+            <td><a onclick="showBlog();">Blog</a></td>
+        </tr>
+        <tr>
+            <td>
+                <i class="fas fa-mobile-alt"> (407) 301-4577</i><br>
+            </td>
+            <td><a href="https://justfriends.online" style="text-decoration: none; color: white;">JustFriends.online</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <i class="fab fa-linkedin"><a href="https://www.linkedin.com/in/michael-a-troia/" style="text-decoration: none; color: white;"> LinkedIn</a></i>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <i class="fab fa-github-square"><a href="https://github.com/Michael-Troia" style="text-decoration: none; color: white;"> GitHub</a></i>
+            </td>
+        </tr>
+    </table>
+</footer>
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->

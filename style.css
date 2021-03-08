@@ -13,11 +13,27 @@
     font-size: 1.1rem;
 }
 
-body {
+#Content {
     max-width: 1776px;
     margin: 0 auto;
     /*background-color: #454545;*/
 }
+footer {
+    display: flex;
+    background-color: #202020;
+    color: white;
+    justify-content: center;
+    padding: 50px;
+    margin-top: auto;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 100px 0;
+}
+th {
+    text-align: center;
+}
+
 img {
     width: 100%;
 }
